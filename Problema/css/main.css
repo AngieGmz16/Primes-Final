@@ -1,0 +1,435 @@
+/*Global*/
+*{
+	font-family: helvetica;
+}
+
+.relativa{
+	position: relative;
+}
+
+#margin{
+	margin-left: 30%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.tono-gris{
+	color: #394149;
+}
+
+/*Background inicio*/
+.inicio{
+	background-image: url("../img/background/hero.jpg");
+	background-size: 100%;
+	height: 500px;
+}
+
+.brillo {
+-webkit-filter: brightness(58%);
+filter: brightness(58%);
+}
+
+
+/*Menu de inicio*/
+h3{
+	padding-top: 1%;
+	line-height: 14px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-top: -1%;
+	margin-left: 10%;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px 25px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: #59c5dc;
+}
+
+.text1{
+	font-size: 46px;
+	margin-top: 18%;
+}
+ 
+.left{
+ 	margin-left: 5%;
+ 	margin-top: 5%;
+ 	font-size: 18px;
+}
+
+
+/*botones*/
+.buton{
+	background: rgba(255, 255, 255, 0.3);
+	width: 20%;
+	height: 40px;
+	padding:1% 3%;
+	margin: 4% 3%;
+}
+
+.buton:hover{
+	background: #585858;
+	cursor: pointer;
+}
+
+
+/*seccion icono*/
+.lorem{
+	font-size: 20px;
+	margin-top: 10%;
+}
+
+.text2{
+	text-align: center;
+	font-size: 15px;
+	color: #989898;
+}
+
+.icon1{
+	color: #0dc0c0;
+	font-size: 250%;
+	margin-left: 24%;
+}
+
+.alineacion{
+	margin-top: 10%;
+	margin-left: -16%;
+}
+
+
+/*Background gris*/
+.bg-gris{
+	background-color: #f2f2f2;
+	background-size: 100%;
+	margin-top: 10%;	
+}
+
+.size1{
+	height: 500px;
+}
+
+.titulo{
+	font-size: 40px;
+	margin-top: 5%;
+	
+}
+
+img{
+	width: 100%;
+	height: 500px;
+}
+
+
+/*Seccion iconos 2*/
+.text3{
+	text-align: justify;
+	font-size: 15px;
+	color: #989898;
+}
+
+.icon{
+	color: #0dc0c0;
+	font-size: 200%;
+}
+
+
+/* Seccion fotos*/
+.menu ul{
+	list-style-type: none;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	margin-right: 17%;
+	float: right;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.menu li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.menu a{
+	text-decoration: none;
+	padding: 10px 25px;
+	color: #989898;
+	font-weight: bold;
+}
+
+.menu a:hover{
+	background: #59c5dc;
+	color: #ffffff;
+}
+
+/*fotos*/
+.size2{
+	height: 1330px;
+}
+
+.bg-blanco{
+	background-color: #ffffff;
+	background-size: 100%;
+	height: 300px;
+	margin-bottom: 5%;
+	border-radius: 5px;
+}
+
+.foto{
+	width: 90%;
+	height: 210px;
+	margin: 3% 5%;
+}
+
+.descripcion{
+	font-size: 18px;
+	color: #585858;
+	text-align: center;
+}
+
+.buton2{
+	margin-top: 3%;
+	color: #ffffff;
+	background: #585858;
+	width: 20%;
+	height: 50px;
+	line-height: 45px;
+	margin-left: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+/*Background ciudad*/
+.bg-2{
+	background-image: url("../img/background/city.jpg");
+	background-size: 100%;
+	height: 350px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: -10%;
+}
+
+.text4{
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 8%;
+	font-family: helvetica;
+}
+
+#buton-action{
+	width: 25%;
+	height: 50px;
+	margin-left: 35%;
+	padding-left: 6%;
+}
+
+
+/*Background gris caja con precios*/
+.size3{
+	height: 700px;
+}
+
+.bg-blanco2{ /*Cuadros de precios*/
+	background-color: #ffffff;
+	background-size: 100%;
+	height:520px;
+	padding-top: 5%;
+	margin-top: 5%;
+}
+
+.cuadro-azul{
+	background: #132133;
+	width: 90%;
+	height: 50px;
+	font-size: 25px;
+	margin:5% 5%;
+	border-radius: 5px;
+	padding: 4% 25%;
+	margin-bottom: 0;
+}
+
+.cuadro-gris{
+	background-color: rgb(244, 244, 244);
+	width: 90%;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 5%;
+	padding: 10% 25%;
+}
+
+.contenido-cuadro{
+	font-size: 20px;
+	margin-top: 6%;
+	margin-bottom: 5%;
+	font-size: 17px;
+	
+}
+
+hr{
+	width: 90%;
+	height: 4px;
+	margin-left: 5%;
+	background-color: #585858;
+}
+
+.purchase{
+	background: #132133;
+	color: #ffffff;
+	width: 60%;
+	height: 40px;
+	margin-left: 20%;
+	padding-top: 3%;
+	cursor: pointer;
+}
+
+#azul-claro{
+	background: #0dc0c0;
+}
+
+
+/*Seccion customer, foto circular¨*/
+h2{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.foto2{
+	width: 16%;
+	height: 110px;
+	border-radius: 50%;
+	margin-left: 43%;
+	border: 2px solid #0dc0c0;
+	padding: 2px;
+}
+
+.text5{
+	font-size: 15px;
+	margin: 3% 10% 1% 15%;
+}
+
+h6{
+	color: #394149;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+
+/*Background cafe. formulario*/
+.bg-3{
+	background-image: url("../img/background/contactus.jpg");
+	background-size: 100%;
+	height: 520px;
+	color: rgba(0, 0, 0, 0.98);
+}
+
+.text6{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+form{
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: helvetica;
+	background: rgba(0,0,0,.15);
+	color: #0dc0c0;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 100px;
+	max-width: 100%;
+	color: #ffffff;
+}
+
+#boton{
+	background: #0dc0c0;
+	color: white;
+	padding: 5px;
+	width: 30%;
+	height: 40px;
+	border-radius: 10px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+.span{
+	margin-top: 210%;
+	margin-left: 30%;
+}
+
+.icon2{
+	color: #0dc0c0;
+	font-size: 100%;
+}
+
+.contacto{
+	margin-top: -5%;
+	margin-left: 6%;
+	font-size: 16px;
+}
+
+
+/*Seccion redes*/
+div.posicion{
+	margin-top: 5%;
+	margin-left: 36%;
+}
+
+.redes-icon{
+	color: #394149;
+	font-size: 150%;
+	margin-left: 3%; 
+}
+
+
+/*Footer*/
+.bg-footer{
+	margin-top: 5%;
+	background: #394149;
+	background-size: 100%;
+	height: 70px;
+}
+
+#left{
+	margin-left: 42%;
+	margin-top: 3%;
+}
